@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html>
+	
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="description" content="it's time for tea">
+		<meta name="viewport" content="width=device-width">
+
+		<title>TeaTime</title>
+	
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	
+	<body>
+		
+		<header>
+			<div class="container group">
+				<h1><img src="images/logo.png"></h1>
+				  <nav>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="https://twitter.com/teatime">Twitter</a></li>
+            </ul>
+          </nav>
+			</div>
+		</header>
+
+		<section class="tea">
+			<div class="container">
+				<div class="lead">
+          <h2>Your brew, <strong>better</strong>.</h2>
+          <h3>Get 1000s and 1000s of tea brands delivered direct to your door.</h3>  
+          <a href="appstore.html">
+            <img src="images/appstore.png" alt="available on the app store">
+          </a>
+        </div>
+
+        <div class="iphone">
+          <img src="images/iphone.png" alt="Teatime app for iPhone">
+        </div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<div class="column">
+          <img src="images/search.png" alt="search">
+          <h3>Search</h3>
+
+          <p>Find 1000s of brews and blends.</p>
+        </div>
+        <div class="column">
+          <img src="images/share.png" alt="share">
+          <h3>Share</h3>
+
+          <p>Share your favourite teas with friends.</p>
+        </div>
+        <div class="column">
+          <img src="images/shop.png" alt="shop">
+          <h3>Shop</h3>
+
+          <p>Buy securely and get free delivery.</p>
+        </div>
+        <div class="column">
+          <img src="images/sup.png" alt="sup">
+          <h3>Sup</h3>
+
+          <p>Sit back and enjoy a nice cup of tea!</p>
+        </div>
+
+			</div>
+		</section>
+		<section class="quotes">
+			<div class="container">
+				
+        <div class="column">
+          <img class="circle" src="images/dan.jpg" alt="Dan">
+          <blockquote>"TeaTime is 100% indispensible &mdash; I now use it to order all my tea."</blockquote>
+
+          <p>Dan Howells</p>
+        </div>
+        <div class="column">
+          <img class="circle" src="images/katie.png" alt="Katie">
+          <blockquote>"After a long day's work, I love to relax. TeaTime is perfect."</blockquote>
+
+          <p>Katie Marcus</p>
+        </div>
+
+        <div class="column">
+    
+          <img class="circle" src="images/al.jpg" alt="Al">
+          <blockquote>"I love ordering tea with TeaTime, it's the best app out there."</blockquote>
+
+          <p>Al Monk</p>
+        </div>
+
+			</div>
+		</section>
+    <section class="contact">
+      <div class="container">
+        <form>
+          <fieldset>
+            
+            <div>
+              <label for="name">Name</label>
+              <input type="text" name="fullname" id="name">
+            </div>
+            
+            <div>
+              <label for="email" name="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="email@address.com">
+            </div>
+
+            <div>
+              <label for="version">Version</label>
+              <select id="version">
+                <option>Normal</option>
+                <option>Pro</option>
+                <option>Gold</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="enter your message">
+
+              </textarea>  
+
+            </div>
+            <input type="Submit" Value="Contact Teatime">
+          </fieldset>
+        
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p>Copyright TeaTime Systems Ltd., 2014.</p>
+      </div>
+    </footer>
+	</body>
+</html>

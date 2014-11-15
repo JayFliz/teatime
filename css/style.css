@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans:400,400italic,700italic,800,800italic,700);
+body {
+  font: 400 16px/1.5 'Merriweather Sans', sans-serif;
+  color: #333; }
+
+.container {
+  /* fluid width up to 960px */
+  max-width: 960px;
+  /* centered in middle with no margins on top */
+  margin: 0 auto; }
+
+header {
+  background-color: #fff;
+  position: fixed;
+  width: 100%; }
+
+h1 {
+  /* positon on left of header*/
+  float: left;
+  padding: 15px 0 5px 50px; }
+
+nav {
+  /* position on right of header */
+  float: right; }
+
+nav li {
+  /* make the list elements display next to each other */
+  display: inline-block; }
+
+nav a {
+  /* 700 font weight. remove default styles, makes it #bdc3c7. give padding of 30px on left and right*/
+  font-weight: 700;
+  color: #bdc3c7;
+  text-decoration: none;
+  padding: 22px 30px;
+  display: block;
+  /* need this so the padding works */ }
+
+nav a:hover {
+  background-color: #ecf0f1;
+  color: #7f8c8d; }
+
+.tea {
+  /* x co-ords y co-ords repeat fallabck background colour */
+  background: url(../images/tea.jpg) 50% 50% no-repeat #abd6fb;
+  height: 480px;
+  /* this will stop the bottom of the phone hanging over the tea image*/
+  overflow: hidden;
+  padding-top: 30px; }
+
+.lead {
+  float: right;
+  width: 35%;
+  margin-top: 100px; }
+
+.iphone {
+  float: left;
+  width: 65%; }
+
+.iphone img {
+  margin-top: 40px; }
+
+.column {
+  width: 24%;
+  display: inline-block; }
+
+/* this is a 4 row with 4 columns */
+.about .container {
+  margin: 10px auto 30px auto; }
+
+.quotes {
+  background: #ccc; }
+
+.quotes .container .column {
+  width: 30%; }
+
+.quotes .container .column img {
+  width: 80%;
+  padding: 20px; }
+
+.quotes .container .column blockquote {
+  text-align: center;
+  width: 70%;
+  font-size: 12px; }
+
+.circle {
+  border-radius: 50%; }
+
+.contact {
+  background: url(../images/mug.jpg) 50% 50% no-repeat #abd6fb;
+  height: 480px;
+  background-size: cover; }
+
+form {
+  position: relative;
+  top: 30px;
+  max-width: 400px;
+  height: 300px;
+  margin: auto;
+  background: #e7e7e7;
+  border-radius: 10px;
+  padding: 30px; }
+
+@media screen and (max-width: 720px) {
+  .column {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
